@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid silver;
+    font-size: 12px;
+    color: #212529;
+    padding: 15px 40px;
+
+}
+.container:last-child {
+    border: none;
+  }
+.image{
+    width: 30px;
+}
+.name{
+    font-size: 14px ;
+    width: 140px;
+    margin-left: 15px;
+    color: #333333;
+    text-align: left;
+    font-weight: bold;
+}
+.symbol{
+    text-align: left;
+    width: 100px;
+}
+
+.price {
+    text-align: left;
+    width: 100px;
+   
+  }
+
+  .greenColor,
+  .redColor{
+  text-align: left;
+  width: 100px;
+  font-weight: bold;
+  
+
+  }
+  .greenColor{
+    color:rgb(0, 204, 0) ;
+  }
+  .redColor{
+    color: rgb(255, 38, 38);
+  }
